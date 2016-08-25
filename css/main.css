@@ -1,0 +1,51 @@
+/*header*/
+.logo{
+	width: 20%;
+}
+.inline{
+	display: inline-block;
+}
+#idealab{
+	color: #086a87;
+	font-size: 200%;
+}
+nav.navbar{
+	background-color: transparent;
+	border: transparent;
+	position: fixed;
+	z-index: 100;
+}
+li a, div a{
+	color: #fe642e !important;
+}
+/*section 1*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 100%;
+	margin: 0%;
+}
+.imgcar{
+	width: 460px;
+	height: 345px;
+}
+.empresas{
+	width: 30%;
+	height: 30%;
+	line-height: 0px;
+	color: transparent;
+	font-size: 2em;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
+.empresas:hover{
+	line-height: 90%;
+	color: yellow;
+}
+.empresas img{
+	float: bottom;
+	margin: 15% 0% 0% 5%;
+}
+#ideo{
+	width: 69%;
+}

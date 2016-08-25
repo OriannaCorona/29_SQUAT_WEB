@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta charset="UTF-8">
-	<title>Portafolio</title>
+	<title>IDEALAB</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -13,8 +12,8 @@
 			<header><!--header-->
 				<div class="row fondo1"><!--row header-->
 					<div class="col-xs-6 col-lg-6"><!--col-->
-		            	<img src="gifs/lightbulb/animat-lightbulb-color.gif" alt="bulb">
-		            	<p id="portafolio" class="">Idea<b>LAB</b></p>
+		            	<img src="gifs/lightbulb/animat-lightbulb-color.gif" alt="bulb" class="logo inline">
+		            	<p id="idealab" class="inline">I<i>dea</i><b>LAB</b></p>
 		          	</div>
 					<div class="col-xs-6 col-lg-6">
 						<nav class="navbar navbar-static-top navbar-default" role="navigation"><!--menu-->
@@ -39,9 +38,88 @@
 				</div><!--row header cierre-->
 			</header><!--header cierre-->
 			<section><!--section 1-->
-				
+				<div class="row"><!--row section 1-->
+					<div class="col-xs-12 col-lg-6"><!--cols carusel-->
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators"><!--indicadores-->
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+								<li data-target="#myCarousel" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="img/285.jpg" class="imgcar" alt="colaboracion1">
+								</div>
+								<div class="item active">
+									<img src="img/34032-NZEBPP.jpg" class="imgcar" alt="colaboracion2">
+								</div>
+								<div class="item active">
+									<img src="img/53544-O7QKK2.jpg" class="imgcar" alt="colaboracion3">
+								</div>
+								<div class="item active">
+									<img src="img/04.jpg" class="imgcar" alt="colaboracion4">
+								</div>
+							</div>
+							<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Back</span>
+							</a>
+							<a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div><!--cols carusel cierre-->
+					<div class="col-xs-12 col-lg-6">
+						<h2>TRABAJO COLABORATIVO</h2>
+						<hr>
+						<p class="text-center">El trabajo colaborativo es un proceso en el cual cada individuo aprende más de lo que aprendería al trabajar solo, fruto de la interacción con los integrantes del equipo, por lo tanto, intercambio de ideas y conocimientos. Un trabajo hecho en un grupo de forma colaborativa, tiene un resultado más enriquecedor.</p>
+						<div class="row">
+							<div class="col-xs-4 empresas">
+								<a href="https://www.spotify.com" target="_blanck"><img src="img/spotify.png" alt="spotify logo"></a>
+								<p>Spotify</p>
+							</div>
+							<div class="col-xs-4 empresas">
+							<a href="https://www.google.com"><img src="img/google.png" alt="google logo"></a>
+								<p>Google</p>
+							</div>
+							<div class="col-xs-4 empresas">
+								<a href="https://www.ideo.com"><img src="img/ideo.png" alt="ideo logo" id="ideo" class="img-circle"></a>
+								<p>Ideo</p>
+							</div>
+						</div>
+						<a href="#" target="_blanck"><button type="button" class="button button-orange">Video</button></a>
+					</div>
+				</div><!--row section 1 cierre-->
 			</section><!--section 1 cierre-->
+			<section><!--section 2-->
+				<div class="row">
+					<div class="col-xs-12 col-lg-3 img1 fon">
+						<div class="fondonarimg">
+							<p class="text text-center">CATEGORIA<br><b>Codigo</b></p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-lg-3 img2 fon">
+						<div class="fondonarimg">	
+							<p class="text text-center">CATEGORIA<br><b>Diseño Industrial</b></p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-lg-3 img3 fon">
+						<div class="fondonarimg">
+							<p class="text text-center">CATEGORIA<br><b>Diseño de Servicios</b></p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-lg-3 img4 fon">
+						<div class="fondonarimg">
+							<p class="text text-center">CATEGORIA<br><b>Diseño de Servicios</b></p>
+						</div>
+					</div>	
+				</div>	
+			</section><!--section 2 cierre-->
 		</div><!--container general cierre-->
+		
+  
 		
 		<script src="bootstrap/js/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
