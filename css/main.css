@@ -49,3 +49,26 @@ li a, div a{
 #ideo{
 	width: 69%;
 }
+/*section 2*/
+.fon, .recoimg{
+	width: 100%;
+	height: 300px; 
+}
+.fondonarimg{
+	background-color: rgba(250,130,88,0.5);
+	width: 110%;
+	height: 300px;
+	margin: 0% 0% 0% -3.3%;
+	opacity: 0;
+	position: absolute;
+	overflow: hidden;/*esto para que cuando se este fuera del elemento no se aplique la condicion*/
+}
+div .img1:hover div.fondonarimg, 
+div .img2:hover div.fondonarimg, 
+div .img3:hover div.fondonarimg, 
+div .img4:hover div.fondonarimg, 
+div .img5:hover div.fondonarimg, 
+div .img6:hover div.fondonarimg{
+	opacity: 1;
+}
+/*section 3*/
